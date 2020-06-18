@@ -8,8 +8,7 @@ Automatización + BDD + Selenium + Serenity + Cucumber4 + Gradle +Rest Assured
 2.   Eclipse IDE (Oxigen o Neon) o IntelliJ IDEA (2019)
 3.   Gradle v5.2.1 o superior(variables de entorno configuradas)
 4.   Cucumber
-5.   Chrome Versión 83.0.4103.106 (Official Build) (32-bit) Gradle
- 
+5.   Chrome Versión 83.0.4103.106 (Official Build) (32-bit) 
 
 # Instalación 🔧
 - Clonar el repositorio con el siguiente comando: git clone https://github.com/ant9112/SophosApiAutomation.git
