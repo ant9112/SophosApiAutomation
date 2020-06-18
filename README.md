@@ -12,7 +12,7 @@ Automatización + Page Factory + Selenium + Serenity + Cucumber4 + Gradle +Rest 
  
 
 # Instalación 🔧
-- Clonar el repositorio con el siguiente comando: git clone https://github.com/ant9112/WongAutomation.git
+- Clonar el repositorio con el siguiente comando: git clone https://github.com/ant9112/SophosApiAutomation.git
 - Importar el proyecto desde Eclipse o Intellij IDE bajo la estructura de un proyecto Gradle existente.
 - Configurar JRE System Library con JavaSE-1.8
 - Configurar la codificación a UTF-8 al proyecto una vez sea importado.
