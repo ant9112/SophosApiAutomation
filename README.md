@@ -1,7 +1,7 @@
 # ApiAutomation
-Automatización de una API de la página Go Rest utilizando Java,Rest Assured, Selenium y Serenity, con el patrón POM.
+Automatización de una API de la página Go Rest utilizando Java,Rest Assured, Selenium y Serenity, BDD.
 
-Automatización + Page Factory + Selenium + Serenity + Cucumber4 + Gradle +Rest Assured
+Automatización + BDD + Selenium + Serenity + Cucumber4 + Gradle +Rest Assured
 
 # Pre-requisitos📋
 1.   Java v1.8 update 151 o superior y JDK (variables de entorno configuradas)
@@ -20,7 +20,6 @@ Automatización + Page Factory + Selenium + Serenity + Cucumber4 + Gradle +Rest 
 # Construido Con 🛠️
 La automatización fue desarrollada con:
 - BDD - Estrategia de desarrollo
-- Page Factory (Patrón de diseño enfocado a desarrollo de pruebas automatizadas)
 - Gradle
 - Selenium Web Driver
 - Cucumber
