@@ -1,0 +1,35 @@
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.76")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'net.serenity-bdd:serenity-core:2.0.76'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    testCompile('junit:junit:4.12')
+    compile('org.assertj:assertj-core:3.8.0')
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-rest-assured
+compile group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: '2.0.76'
+    
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-rest-assured
+    
+}
+gradle.startParameter.continueOnFailure = true
