@@ -9,4 +9,4 @@ Feature: Check the api users
 
     Examples: 
       | headerKey  | headerValue | urlAPI  | userId |
-      |Authorization |Bearer VkeQaYE3gOr-sGffJms-4O-qoKwemq4cjKf7| https://gorest.co.in/public-api/users | 1798|
+      |Authorization |Bearer VkeQaYE3gOr-sGffJms-4O-qoKwemq4cjKf7| https://gorest.co.in/public-api/users |1803|
